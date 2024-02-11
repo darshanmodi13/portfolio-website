@@ -14,7 +14,7 @@ const HeroSection = () => {
 					<Image src={'/hero.png'} alt="hero" fill className="absolute " />
 				</div>
 				<div className="bg-black/40 z-10 absolute w-full h-full top-0"></div>
-				<div className="absolute left-[5%] top-[70%] z-20 max-900:top-[55%]">
+				<div className="absolute left-[5%] top-[70%] z-20 max-900:top-[50%]">
 					<span className="text-head-1 font-[700] tracking-wide max-600:text-head-4">
 						Hi, I&apos;m{' '}
 						<TypeAnimation

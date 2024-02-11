@@ -33,7 +33,8 @@ const ServicesSection = () => {
 	return (
 		<>
 			<section id="services" className="container">
-				<div className="grid grid-cols-4 gap-5 max-900:grid-cols-2">
+				<div className="text-head-2 tracking-wider capitalize ">What I Can do for you</div>
+				<div className="grid grid-cols-4 gap-5 max-900:grid-cols-2 mt-10">
 					{CardsSection.map((card, idx) => {
 						return (
 							<div key={idx} className="bg-light-blue text-font p-10 border border-blue rounded-xl flex flex-col gap-y-5">
