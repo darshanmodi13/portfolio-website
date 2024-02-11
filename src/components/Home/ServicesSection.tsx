@@ -10,22 +10,22 @@ const CardsSection = [
 	{
 		logo: <FaReact />,
 		header: 'Web Development',
-		text: '',
+		text: 'I build responsive websites using modern technologles like React, Gatsby, and Next.js. I focus on creating high-quality user Interfaces that are performant and accessible.',
 	},
 	{
 		logo: <IoLogoAndroid />,
 		header: 'App Development',
-		text: '',
+		text: 'I develop cross-platform mobile applications using Flutter. I have experience building apps for IOS and Android and can help you bring your idea to life.',
 	},
 	{
 		logo: <FaFileCode />,
 		header: 'Full Stack Development',
-		text: '',
+		text: 'I&apos;m a full stack developer with experience working with both front-end and back-end technologies. I can help you build scalable and secure web applications from start to finish.',
 	},
 	{
 		logo: <FaCartArrowDown />,
 		header: 'ECommerce Development',
-		text: '',
+		text: 'I create custom e- commerce solutions using platforms like Shopify and WooCommerce. I can help you set up an online store, optimize your site for sales, and Implement new features.',
 	},
 ];
 

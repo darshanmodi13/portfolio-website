@@ -2,6 +2,29 @@ import React from 'react';
 
 const Skills = ['NextJs', 'ReactJs', 'JavaScript', 'TypeScript', 'NodeJs', 'ExpressJs', 'MongoDB', 'MySQL', 'REST', 'GraphQL', 'TailwindCSS', 'MUI'];
 
+const Experiences = [
+	{
+		header: 'Full Stack Developer',
+		text: 'Solvative, Nov 2023 - Present',
+	},
+	{
+		header: 'Full Stack Developer',
+		text: 'NextCampus Platforms, May 2023 - Nov 2023',
+	},
+	{
+		header: 'Software Engineer Intern',
+		text: 'OpsHub, Jan 2023 - May 2023',
+	},
+	{
+		header: 'Full Stack Developer Intern',
+		text: 'NextCampus Platforms, Sept 2022 - Dec 2022',
+	},
+	{
+		header: 'Software Engineer Intern',
+		text: 'OpsHub, May 2022 - July 2022',
+	},
+];
+
 const steps = [
 	{
 		label: 'Select campaign settings',
@@ -30,6 +53,21 @@ const SkillsSection = () => {
 				{Skills.map((skill, idx) => (
 					<div key={idx} className="bg-light-blue px-5 py-2 border-light-blue rounded-xl">
 						{skill}
+					</div>
+				))}
+			</div>
+			<div className="text-head-2 tracking-wider capitalize mt-20">experience</div>
+			<div className="mt-10">
+				{Experiences.map((experience, idx) => (
+					<div className="flex items-start" key={idx}>
+						<div className="flex flex-col items-center">
+							<div className="h-[15px] w-[15px] rounded-full bg-light-blue border border-blue"></div>
+							<div className={`h-[60px] w-[3px] my-[.5rem] border border-blue bg-light-blue ${idx == Experiences.length - 1 ? 'hidden' : ''}`}></div>
+						</div>
+						<div className="ml-4">
+							<div className="text-body-3 mt-[-10px] font-[500]">{experience.header}</div>
+							<div className="text-body-4">{experience.text}</div>
+						</div>
 					</div>
 				))}
 			</div>
