@@ -23,7 +23,8 @@ const About = () => {
 			</header>
 			<section className="about-text">
 				<p>
-					I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+					Hi, I&apos;m Darshan Modi, a Full Stack Developer with 2 years of experience in ReactJs, NextJs, NodeJs, HTML, CSS, JavaScript, TypeScript, and MongoDB. I specialize in creating dynamic,
+					responsive web applications that offer seamless user experiences. I am passionate about coding and continually learning new technologies to improve my skills
 				</p>
 				<p>
 					My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching
