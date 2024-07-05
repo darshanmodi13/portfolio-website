@@ -26,10 +26,6 @@ const About = () => {
 					Hi, I&apos;m Darshan Modi, a Full Stack Developer with 2 years of experience in ReactJs, NextJs, NodeJs, HTML, CSS, JavaScript, TypeScript, and MongoDB. I specialize in creating dynamic,
 					responsive web applications that offer seamless user experiences. I am passionate about coding and continually learning new technologies to improve my skills
 				</p>
-				<p>
-					My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching
-					and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-				</p>
 			</section>
 			<section className="skill">
 				<h3 className="h3 skills-title">My skills</h3>
