@@ -1,16 +1,26 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
-import { FaChevronDown, FaEye } from 'react-icons/fa';
-
+import { CiLink } from 'react-icons/ci';
+import { FaGithub } from 'react-icons/fa';
 const projects = [
-	{ id: 1, title: 'Finance', category: 'web development', imgSrc: './assets/images/project-1.jpg', imgAlt: 'finance' },
-	{ id: 2, title: 'Orizon', category: 'web development', imgSrc: './assets/images/project-2.png', imgAlt: 'orizon' },
-	{ id: 3, title: 'Fundo', category: 'web design', imgSrc: './assets/images/project-3.jpg', imgAlt: 'fundo' },
-	{ id: 4, title: 'Brawlhalla', category: 'applications', imgSrc: './assets/images/project-4.png', imgAlt: 'brawlhalla' },
-	{ id: 5, title: 'DSM.', category: 'web design', imgSrc: './assets/images/project-5.png', imgAlt: 'dsm' },
-	{ id: 6, title: 'MetaSpark', category: 'web design', imgSrc: './assets/images/project-6.png', imgAlt: 'metaspark' },
-	{ id: 7, title: 'Summary', category: 'web development', imgSrc: './assets/images/project-7.png', imgAlt: 'summary' },
-	{ id: 8, title: 'Task Manager', category: 'applications', imgSrc: './assets/images/project-8.jpg', imgAlt: 'task manager' },
-	{ id: 9, title: 'Arrival', category: 'web development', imgSrc: './assets/images/project-9.png', imgAlt: 'arrival' },
+	{
+		id: 1,
+		title: 'Ride Sharing Application',
+		category: '',
+		imgSrc: '/images/Project1.png',
+		imgAlt: 'Ride sharing web application',
+		url: 'https://ephemeral-kulfi-168f7d.netlify.app/',
+		github: 'https://github.com/darshanmodi13/IT632_8_ridesharing_web_frontend.git',
+	},
+	{
+		id: 2,
+		title: 'Live Tic Tac Toe Game using Socket.IO',
+		category: '',
+		imgSrc: '/images/Project2.png',
+		imgAlt: 'Ride sharing web application',
+		url: 'https://laughing-kirch-047d6a.netlify.app/',
+		github: 'https://github.com/darshanmodi13/tic-tac-toe.git',
+	},
 ];
 
 const categories = ['All', 'Web design', 'Applications', 'Web development'];
@@ -28,8 +38,29 @@ const Portfolio = () => {
 						<li className="project-item active" data-filter-item data-category={project.category} key={project.id}>
 							<a href="#">
 								<figure className="project-img">
-									<div className="project-item-icon-box">
-										<FaEye />
+									<div className="project-item-icon-box" style={{ display: 'flex', gap: '10px' }}>
+										{project.url && (
+											<Link href={project.url} target="_blank">
+												<CiLink />
+											</Link>
+										)}
+										{project.github && (
+											<Link href={project.github} target="_blank">
+												<FaGithub />
+											</Link>
+										)}
+									</div>
+									<div className="project-item-icon-box" style={{ display: 'flex', gap: '10px' }}>
+										{project.url && (
+											<Link href={project.url} target="_blank">
+												<CiLink />
+											</Link>
+										)}
+										{project.github && (
+											<Link href={project.github} target="_blank">
+												<FaGithub />
+											</Link>
+										)}
 									</div>
 									<img src={project.imgSrc} alt={project.imgAlt} loading="lazy" />
 								</figure>

@@ -9,7 +9,7 @@ import Contact from './Contact';
 const navLinks = [
 	{ name: 'About', component: <About /> },
 	{ name: 'Resume', component: <Resume /> },
-	// { name: 'Portfolio', component: <Portfolio /> },
+	{ name: 'Portfolio', component: <Portfolio /> },
 	{ name: 'Contact', component: <Contact /> },
 ];
 
