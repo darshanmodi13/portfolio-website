@@ -1999,3 +1999,14 @@ textarea.form-input::-webkit-resizer {
 		max-width: 700px;
 	}
 }
+
+.success {
+	color: #28a745;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.error {
+	color: #dc3545;
+	margin-top: 5px;
+}
