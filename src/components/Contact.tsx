@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
 		if (!validate()) return;
 
 		setIsSubmitting(true);
-		console.log(form.current);
+
 		emailjs
 			.sendForm(process.env.SERVICE_ID as string, process.env.NEXT_TEMPLATE_ID as string, form.current as HTMLFormElement, {
 				publicKey: process.env.NEXT_PUBLIC_KEY as string,
