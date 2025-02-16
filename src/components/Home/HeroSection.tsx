@@ -36,7 +36,7 @@ const HeroSection = () => {
 					</span>
 					<div className="mt-10">
 						<Link
-							href={'https://drive.google.com/file/d/1IrI-ZQdWq8ObzXssr5n9gAsc7huy7taP/view?usp=drive_link'}
+							href={'https://drive.google.com/file/d/1UDH4QGSV7QYDTx-NlFMiEiO5IDLMCzje/view?usp=sharing'}
 							target="_blank"
 							className="text-body-2 bg-blue text-font px-5 py-3 border border-blue rounded-2xl">
 							Download Resume
