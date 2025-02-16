@@ -7,7 +7,7 @@ const contacts = [
 	{
 		icon: <TiDocumentText />,
 		title: 'Resume',
-		link: 'https://drive.google.com/file/d/1-lOFmVJ8vcfUaYdaW6zhpTGgOKqtUXUT/view?usp=sharing',
+		link: 'https://drive.google.com/file/d/1UDH4QGSV7QYDTx-NlFMiEiO5IDLMCzje/view?usp=sharing',
 		linkText: 'Resume URL',
 	},
 	{
